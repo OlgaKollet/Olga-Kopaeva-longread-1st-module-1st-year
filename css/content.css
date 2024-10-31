@@ -1,0 +1,218 @@
+body {
+    font-family: 'Nekst-Regular';
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-size: 50px;
+    text-align: center;
+}
+h1,h2,h3,h4,h5 {
+    font-family: 'Nekst-Bold';
+}
+.blok1__img {
+    width: 400px;
+    background: #878787;
+    padding: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    flex-shrink: 0;
+}
+
+.blok1__img h4 {
+    margin: 10px 0 0;
+    color: #fff;
+    font-size: 40px;
+}
+
+.content {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+
+.blok1 {
+    background: #fff url(../images/3-3.png) no-repeat bottom right;
+    padding: 50px 50px 230px;
+    background-size: auto 400px;
+}
+
+.blok1 h2 {
+    padding: 150px 0;
+    font-size: 100px;
+    margin-top: 10px;
+    margin-bottom: 70px;
+    background: url(../images/02.png) no-repeat center;
+    background-size: auto 100%;
+}
+
+
+.blok1__con {
+    display: flex;
+    max-width: 900px;
+    margin: 0 auto;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.blok1__text {
+    padding: 30px;
+    background: url(../images/3-2.png) no-repeat top left;
+    background-size: 100% auto;
+    font-size: 30px;
+    padding-left: 100px;
+    margin-left: -20px;
+    width: 500px;
+}
+
+
+img {
+    max-width: 100%;
+}
+
+
+.blok2 {
+    background: #000 url(../images/7.png) no-repeat;
+    padding: 190px 50px 50px;
+    background-size: 100% auto;
+}
+
+.blok2 h2 {
+    padding: 150px 0;
+    font-size: 100px;
+    color: #fff;
+    margin: 10px 0 20px;
+    background: url(../images/2-1.png) no-repeat center;
+    background-size: auto 100%;
+}
+
+
+.blok5 {
+    background: #000;
+    color: #fff;
+    padding: 50px;
+}
+
+.blok5 h5 {
+    font-size: 150px;
+    text-align: center;
+    color: #fff;
+    margin: 0;
+}
+
+
+.blok4, .blok6 {
+    background: #fff url(../images/7.png) no-repeat;
+    text-align: center;
+    padding: 190px 0 0;
+    background-size: 100% auto;
+}
+
+.blok4 h2, .blok6 h2,.blok9 h2{
+    padding: 150px 0;
+    font-size: 100px;
+    margin: 10px 0 20px;
+    background: url(../images/02.png) no-repeat center;
+    background-size: auto 100%;
+}
+
+.blok6 img {
+    margin-top: 50px;
+}
+
+
+.blok7 {
+    background: #000 url(../images/7.png) no-repeat;
+    padding: 190px 50px 50px;
+    background-size: 100% auto;
+}
+
+.blok7 h2 {
+    padding: 150px 0;
+    font-size: 100px;
+    color: #fff;
+    margin: 10px 0 20px;
+    background: url(../images/2-1.png) no-repeat center;
+    background-size: auto 100%;
+}
+
+.thin { 
+    font-family: 'Nekst-Thin';
+    font-weight: 100; 
+}
+.light { 
+    font-family: 'Nekst-Light';
+    font-weight: 300; 
+}
+.regular { 
+    font-family: 'Nekst-Regular';
+    font-weight: normal; 
+}
+.medium { 
+    font-family: 'Nekst-Medium';
+    font-weight: 500;
+ }
+.semibold { 
+    font-family: 'Nekst-SemiBold';
+    font-weight: 600; 
+}
+.bold { 
+    font-family: 'Nekst-Bold';
+    font-weight: bold; 
+}
+.black { 
+    font-family: 'Nekst-Black';
+    font-weight: 900; 
+}
+.blok9 {
+    background: #fff;
+    text-align: center;
+    padding: 70px 0 60px;
+}
+.blok10, .blok12 {
+display: flex;
+background-color: #000;
+align-items: center;
+justify-content: space-between;
+}
+.blok10__sym, .blok12__sym {
+    font-family: 'Nekst-Black';
+    font-weight: 900;
+    font-size: 280px;
+    color: #fff;
+    line-height: 0.8;
+    margin-bottom: -30px;
+    padding-left: 40px;
+
+}
+.blok10__but div, .blok12__but div {
+    width: 350px;
+    padding: 10px 0px;
+background-color: #fff;
+font-size: 50px;
+text-align: center;
+}
+.blok11, .blok13 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 50px 40px 0;
+    }
+    .blok11__sym,.blok13__sym {
+        font-family: 'Nekst-Black';
+        font-weight: 900;
+        font-size: 280px;
+        line-height: 0.8;
+        padding-left: 40px;
+    
+    }
+    .blok11__but div, .blok13__but div {
+        width: 350px;
+        text-align: center;
+        padding: 10px 0px;
+    background-color: #000000;
+    color: #fff;
+    font-size: 50px;
+    }
